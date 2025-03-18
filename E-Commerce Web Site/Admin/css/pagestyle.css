@@ -1,0 +1,223 @@
+ /* body */
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+/* search  */
+#searchInput {
+    max-width: 100%; 
+    padding: 5px;
+    border: 1px solid #ced4da; 
+    border-radius: 25px; 
+    font-size: 15px;
+    color: #495057; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    outline: none; 
+    transition: box-shadow 0.3s ease, border-color 0.3s ease; 
+}
+
+/* On Focus */
+#searchInput:focus {
+    border-color:rgb(143, 143, 143); 
+    box-shadow: 0 4px 8px rgba(148, 148, 148, 0.86); 
+}
+
+/* On Hover */
+#searchInput:hover {
+    border-color:rgb(86, 88, 91); 
+}
+
+@media (max-width: 768px) {
+    #searchInput {
+        padding: 8px 12px; /* Slightly smaller padding for mobile */
+        font-size: 0.9rem; /* Reduce font size */
+    }
+}
+
+/* Table Header */
+.table thead th {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 12px 8px;
+    border-bottom: 2px solid #dee2e6;
+    font-size: 0.9rem;
+}
+
+/* Table Body */
+.table tbody td {
+    text-align: center;
+    padding: 10px;
+    vertical-align: middle;
+    font-size: 0.9rem;
+    color: #495057;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Image Styling */
+.table tbody td img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Video Styling */
+.table tbody td video {
+    max-width: 220px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #f8f9fa;
+    padding: 4px;
+}
+
+/* Hover Effects */
+.table tbody tr:hover {
+    background-color: #f1f3f5;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Responsive Table with Horizontal and Vertical Scroll */
+.table-responsive {
+    border: 1px solid #dee2e6; 
+    border-radius: 10px; 
+    overflow-x: auto; 
+    overflow-y: auto; 
+    -webkit-overflow-scrolling: touch; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-height: 600px; 
+    padding: 5px; 
+}
+
+/* Table */
+.table {
+    min-width: 1000px; 
+    white-space: nowrap; 
+    border-collapse: collapse; 
+}
+
+
+/* Alternate Row Coloring (Optional) */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa;
+}
+
+/* Footer and Caption Styling (Optional) */
+.table tfoot th {
+    background-color: #e9ecef;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Modal Header Styling */
+.modal-header {
+    background-color: #0d6efd; 
+    color: #ffffff; 
+    border-bottom: 2px solid #0a58ca;
+    padding: 1.5rem;
+    border-top-left-radius: 0.5rem; 
+    border-top-right-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Modal Body Styling */
+.modal-body {
+    padding: 2rem; 
+    background-color: #f8f9fa; 
+    color: #212529; 
+    font-size: 1rem; 
+    line-height: 1.6; 
+    border-bottom-left-radius: 0.5rem; 
+    border-bottom-right-radius: 0.5rem;
+}
+
+/* Modal Footer Styling */
+.modal-footer {
+    background-color: #f8f9fa; 
+    padding: 1.5rem; 
+    border-top: 1px solid #dee2e6; 
+}
+
+/* Modal Button Styling */
+.modal-footer .btn {
+    font-size: 0.95rem; 
+    padding: 0.6rem 1.2rem;
+    border-radius: 30px; 
+    transition: background-color 0.3s ease; 
+}
+
+/* Button Hover Effects */
+.modal-footer .btn:hover {
+    opacity: 0.9; 
+}
+
+/* Close Button */
+.modal-header .btn-close {
+    color: #ffffff; 
+    opacity: 0.8; 
+}
+
+.modal-header .btn-close:hover {
+    opacity: 1; 
+}
+
+/* Header Styling */
+.header-title {
+    font-size: 2.8rem;
+    color: #1d3557; 
+    font-weight: 700;
+    text-transform: uppercase; 
+    text-decoration: none; 
+    letter-spacing: 1.5px; 
+    margin-bottom: 30px;
+    position: relative; 
+}
+
+/* Add Decorative Underline */
+.header-title::after {
+    content: '';
+    display: block;
+    width: 120px; 
+    height: 4px; 
+    background-color: #457b9d; 
+    margin: 10px auto 0; 
+    border-radius: 2px; 
+}
+
+
+/* Back Button Styling */
+.back {
+    background-color: #6293ba; 
+    color: #ffffff; 
+    font-size: 16px; 
+    font-weight: 500; 
+    padding: 10px 25px; 
+    border: 2px solid #efeff4; 
+    border-radius: 30px; 
+    display: inline-flex; 
+    align-items: center;
+    text-decoration: none; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+/* Back Button Hover Effect */
+.back:hover {
+    background-color: #507ea3; 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); 
+    text-decoration: none; 
+}
+
+/* Back Button Focus Effect */
+.back:focus {
+    outline: none; 
+    box-shadow: 0 0 0 4px rgba(98, 147, 186, 0.5); 
+}

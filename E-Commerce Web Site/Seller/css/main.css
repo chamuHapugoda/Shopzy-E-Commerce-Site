@@ -1,0 +1,73 @@
+/* General container styling */
+.custom-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f4f8;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Custom heading style */
+.custom-heading {
+    font-family: 'Montserrat', sans-serif;
+    color: #343a40;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+/* Custom card styling */
+.custom-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card .card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #495057;
+}
+
+.custom-card .card-text {
+    color: #6c757d;
+    font-size: 1rem;
+}
+
+/* Custom button style */
+.custom-btn {
+    background-color: #4e73df;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 50px;
+    border: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #2e59d9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Custom alert styling */
+.custom-alert {
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Typography */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+

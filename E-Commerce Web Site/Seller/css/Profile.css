@@ -1,0 +1,102 @@
+/* Profile.css */
+
+/* Global Styles */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container */
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Profile Sidebar */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-title {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.btn-danger {
+    display: flex;
+    align-items: center;
+}
+
+.btn-danger i {
+    margin-right: 8px;
+}
+
+/* Profile Image */
+.rounded-circle {
+    border: 5px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px;
+}
+
+.form-group label {
+    font-weight: 600;
+}
+
+.form-control {
+    border-radius: 8px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Alert Messages */
+.alert {
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 20px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767.98px) {
+    .col-lg-4, .col-lg-8 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .btn-primary, .btn-danger {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Keyframes for Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
